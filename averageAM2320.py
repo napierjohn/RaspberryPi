@@ -21,9 +21,8 @@ def tempHum():
         tempL.append(amT)
         humL.append(amH)
         time.sleep(.0001)
-    print(time.time()-ti)
     print (time.asctime(time.localtime(ti)))
     print("Temperature: ",round(sum(tempL)/len(tempL),1))
     print("Humidity: ", round(sum(humL)/len(humL),1))
-
+    print(time.time()-ti)
 tempHum()

@@ -3,9 +3,9 @@ import board
 import busio
 import am2320
 
-# create the I2C shared bus
-i2c = busio.I2C(board.SCL, board.SDA)
-am = am2320.AM2320(i2c)
+# create the I2C shared bus   # this section only needed when using adafruit_am2320 module
+# i2c = busio.I2C(board.SCL, board.SDA)
+# am = am2320.AM2320(i2c)
 
 tempL = []
 humL = []

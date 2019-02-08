@@ -1,6 +1,4 @@
 import time
-import board
-import busio
 import am2320
 
 # create the I2C shared bus   # this section only needed when using adafruit_am2320 module

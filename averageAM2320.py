@@ -7,13 +7,12 @@ import am2320
 
 tempL = []
 humL = []
-
 amT = am2320.t
 amH = am2320.h
 sr = int(10) #sample rate 
-ti=time.time()
 
 def tempHum():
+    ti=time.time()
     for s in range(sr):
         ti=time.time()
         tempL.append(amT)
